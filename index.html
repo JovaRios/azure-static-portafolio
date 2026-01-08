@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovany Rios | Cloud & Cybersecurity Engineer</title>
+    <meta name="description" content="Portafolio de Jovany Rios, Ingeniero en Informática especializado en Cloud, Ciberseguridad y DevOps.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Outfit', 'sans-serif'] },
+                    colors: {
+                        azure: '#007FFF',
+                        cyber: '#0f172a',
+                        terminal: '#10b981'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-cyber text-slate-300 antialiased selection:bg-azure selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-cyber/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white tracking-tighter">JR<span class="text-azure">.</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#about" class="hover:text-azure transition">Sobre Mí</a>
+                <a href="#skills" class="hover:text-azure transition">Stack</a>
+                <a href="#projects" class="hover:text-azure transition">Proyectos</a>
+                <a href="#experience" class="hover:text-azure transition">Experiencia</a>
+                <a href="#contact" class="px-4 py-2 border border-azure text-azure rounded-md hover:bg-azure hover:text-white transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+        <div class="absolute top-20 left-1/4 w-72 h-72 bg-azure/20 rounded-full blur-[128px]"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <div class="inline-block px-3 py-1 mb-4 text-xs font-semibold tracking-wider text-azure uppercase bg-azure/10 rounded-full border border-azure/20">
+                Open to Work 2025
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                Jovany Rios
+            </h1>
+            <h2 class="text-2xl md:text-3xl text-slate-400 mb-8 font-light">
+                Cloud & Cybersecurity Engineer <span class="text-azure font-semibold">In Training</span>
+            </h2>
+            <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
+                Ingeniero en Informática (8° Semestre) con enfoque en asegurar infraestructura crítica y desplegar arquitecturas escalables en Azure y GCP.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#projects" class="bg-azure text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-600 transition shadow-lg shadow-azure/25">
+                    Ver Proyectos
+                </a>
+                <a href="https://www.linkedin.com/in/jovanyrios" target="_blank" class="bg-slate-800 text-white px-8 py-3 rounded-lg font-bold hover:bg-slate-700 transition border border-slate-700 flex items-center justify-center gap-2">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-3xl font-bold text-white mb-12 text-center">Tech Stack & Herramientas</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-6 bg-slate-800 rounded-xl border border-slate-700 hover:border-azure transition group">
+                    <i class="fas fa-cloud text-4xl text-azure mb-4 group-hover:scale-110 transition"></i>
+                    <h4 class="text-white font-bold">Cloud Computing</h4>
+                    <p class="text-sm text-slate-400 mt-2">Azure, GCP, AWS</p>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-xl border border-slate-700 hover:border-red-500 transition group">
+                    <i class="fas fa-shield-alt text-4xl text-red-500 mb-4 group-hover:scale-110 transition"></i>
+                    <h4 class="text-white font-bold">Ciberseguridad</h4>
+                    <p class="text-sm text-slate-400 mt-2">Kali Linux, Pentesting, ISO 27001</p>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-xl border border-slate-700 hover:border-purple-500 transition group">
+                    <i class="fas fa-code-branch text-4xl text-purple-500 mb-4 group-hover:scale-110 transition"></i>
+                    <h4 class="text-white font-bold">DevOps & Auto</h4>
+                    <p class="text-sm text-slate-400 mt-2">Docker, n8n, Python</p>
+                </div>
+                <div class="p-6 bg-slate-800 rounded-xl border border-slate-700 hover:border-yellow-500 transition group">
+                    <i class="fas fa-building text-4xl text-yellow-500 mb-4 group-hover:scale-110 transition"></i>
+                    <h4 class="text-white font-bold">Enterprise</h4>
+                    <p class="text-sm text-slate-400 mt-2">SAP B1, Intelisis ERP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-3xl font-bold text-white mb-4">Proyectos Destacados</h3>
+            <p class="text-slate-400 mb-12">Aplicación práctica de conocimientos en escenarios reales y académicos.</p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 hover:shadow-2xl hover:shadow-azure/10 transition flex flex-col">
+                    <div class="h-2 bg-gradient-to-r from-blue-600 to-cyan-400"></div>
+                    <div class="p-8 flex-1">
+                        <div class="flex justify-between items-start mb-4">
+                            <h4 class="text-xl font-bold text-white">Infraestructura Cloud SAP B2B</h4>
+                            <i class="fab fa-microsoft text-2xl text-slate-500"></i>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-6">
+                            Implementación en Azure para alojar sistemas críticos SAP. Configuración de MFT Gateway para transferencia encriptada y gestión de identidad con Active Directory.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-blue-300">Azure</span>
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-blue-300">Active Directory</span>
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-blue-300">Seguridad</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 hover:shadow-2xl hover:shadow-red-500/10 transition flex flex-col">
+                    <div class="h-2 bg-gradient-to-r from-red-600 to-orange-400"></div>
+                    <div class="p-8 flex-1">
+                        <div class="flex justify-between items-start mb-4">
+                            <h4 class="text-xl font-bold text-white">Auditoría & Pentesting</h4>
+                            <i class="fas fa-user-secret text-2xl text-slate-500"></i>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-6">
+                            Ejecución de auditorías de vulnerabilidad en entornos controlados usando Kali Linux. Aprovisionamiento seguro de recursos en GCP bajo estándares industriales.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-red-300">Kali Linux</span>
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-red-300">GCP</span>
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-red-300">Ethical Hacking</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800 rounded-xl overflow-hidden border border-slate-700 hover:shadow-2xl hover:shadow-green-500/10 transition flex flex-col">
+                    <div class="h-2 bg-gradient-to-r from-green-600 to-emerald-400"></div>
+                    <div class="p-8 flex-1">
+                        <div class="flex justify-between items-start mb-4">
+                            <h4 class="text-xl font-bold text-white">Automatización & IA</h4>
+                            <i class="fas fa-robot text-2xl text-slate-500"></i>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-6">
+                            Orquestación con Docker (n8n, Freqtrade). Desarrollo de sistema de pre-diagnóstico de artritis con IA durante servicio social en CCAI.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-green-300">Docker</span>
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-green-300">Python</span>
+                            <span class="px-2 py-1 bg-slate-700 text-xs rounded text-green-300">AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-slate-900/30">
+        <div class="max-w-4xl mx-auto px-6">
+            <h3 class="text-3xl font-bold text-white mb-10">Trayectoria</h3>
+            
+            <div class="space-y-8 border-l-2 border-slate-700 pl-8 relative">
+                
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-azure border-4 border-cyber"></span>
+                    <h4 class="text-xl font-bold text-white">Desarrollador de IA e Innovación (Servicio Social)</h4>
+                    <p class="text-azure text-sm mb-2">CCAI | 2024</p>
+                    <p class="text-slate-400 text-sm">Desarrollo de sistema de pre-diagnóstico médico con algoritmos de IA.</p>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-slate-600 border-4 border-cyber"></span>
+                    <h4 class="text-xl font-bold text-white">Asistente Administrativo y Técnico</h4>
+                    <p class="text-azure text-sm mb-2">Abarrotes Ceda Real | 2020 - 2024</p>
+                    <p class="text-slate-400 text-sm">Administración de ERP, instalación de CCTV y mantenimiento de cómputo.</p>
+                </div>
+
+                <div class="relative">
+                    <span class="absolute -left-[41px] top-1 h-5 w-5 rounded-full bg-slate-600 border-4 border-cyber"></span>
+                    <h4 class="text-xl font-bold text-white">Ingeniería en Informática</h4>
+                    <p class="text-azure text-sm mb-2">Tecnológico de Estudios Superiores de Ecatepec | 2022 - Presente</p>
+                    <p class="text-slate-400 text-sm">8° Semestre | Promedio: 9.5</p>
+                </div>
+            </div>
+            
+            <div class="mt-12">
+                <h4 class="text-white font-bold mb-4 text-sm uppercase tracking-wide">Certificaciones</h4>
+                <div class="flex flex-wrap gap-4">
+                    <span class="bg-slate-800 border border-slate-600 px-4 py-2 rounded-full text-xs text-white">Google Cloud Foundations</span>
+                    <span class="bg-slate-800 border border-slate-600 px-4 py-2 rounded-full text-xs text-white">Cisco Intro Cybersecurity</span>
+                    <span class="bg-slate-800 border border-slate-600 px-4 py-2 rounded-full text-xs text-white">Oracle Next Education Back-end</span>
+                    <span class="bg-slate-800 border border-slate-600 px-4 py-2 rounded-full text-xs text-white">Intelisis Process Expert</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-12 border-t border-slate-800 text-center">
+        <h2 class="text-2xl font-bold text-white mb-6">¿Listo para colaborar?</h2>
+        <p class="text-slate-400 mb-8">Disponible para oportunidades en CDMX o Remoto.</p>
+        <div class="flex justify-center gap-6 mb-8">
+            <a href="mailto:jovany0502@icloud.com" class="text-3xl text-slate-400 hover:text-white transition"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/jovanyrios" class="text-3xl text-slate-400 hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="text-slate-600 text-sm">© 2026 Jovany Rios. Construido y desplegado en Azure Static Web Apps.</p>
+    </footer>
+
+</body>
+</html>
